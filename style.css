@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+.bg-img {
+    /* The image used */
+    background-image: url("img/6.webp");
+  height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: 100vh;
+    position: fixed;
+  }
+  
+  /* The navbar */
+  .topnav {
+    position: fixed;
+    overflow: hidden;
+    background-color: black;
+    width: 209.5vh;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+
+  #logo{
+      width:20vh;
+  }
+  
+ .img-text{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    color: white;
+ }
+
+ .img-text, p{
+     font-size: 30px;
+ }
+
+ .img-text, h1{
+font-size: 50px;
+ }
+
+ .btn{
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding: 15px;
+  width: 150px;
+ }
+
+
+ /**CONTAINER 2 **/
+ .container2{
+    /* The image used */
+    background-image: url("img/7.webp");
+  height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .img2-text{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    color: white;
+ }
+
+ .img2-text, p{
+     font-size: 30px;
+ }
+
+ .img2-text, h1{
+font-size: 50px;
+ }
+
+ .btn2{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    width: 150px;
+   }
+
+   /**CONTAINER 3 **/
+ .container3{
+    /* The image used */
+    background-image: url("img/8.webp");
+  height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .img3-text{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    color: white;
+ }
+
+ .img3-text, p{
+     font-size: 30px;
+ }
+
+ .img3-text, h1{
+font-size: 50px;
+ }
+
+ .btn3{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    width: 150px;
+   }
+
+
+    /**CONTAINER 4 **/
+ .container4{
+    /* The image used */
+    background-image: url("img/2.webp");
+  height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .img4-text{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    color: white;
+ }
+
+ .img4-text, p{
+     font-size: 30px;
+ }
+
+ .img4-text, h1{
+font-size: 50px;
+ }
+
+ .btn4{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    width: 150px;
+   }
+
+    /**CONTAINER 5 **/
+ .container5{
+    /* The image used */
+    background-image: url("img/5.webp");
+  height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .img5-text{
+    position: absolute;
+    bottom: 13%;
+    left: 3%;
+    color: white;
+ }
+
+
+ .img5-text, h1{
+font-size: 50px;
+ }
+
+ .btn5{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    width: 150px;
+   }
+
+   /** FOOTER **/
+footer{
+ height: 10vh;
+ width: 209.5vh;
+ background-color: black;   
+ color:white;
+ 
+}
+
+  
+  /* Navbar links */
+  footer, p,  a {
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
